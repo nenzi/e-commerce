@@ -1,26 +1,24 @@
 {
-  "name": "e-commerce",
+  "name": "user",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/e-commerce/src",
+  "sourceRoot": "apps/user/src",
   "projectType": "application",
   "tags": [],
   "targets": {
     "serve": {
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
-      "dependsOn": [
-        "build"
-      ],
+      "dependsOn": ["build"],
       "options": {
-        "buildTarget": "e-commerce:build",
+        "buildTarget": "user:build",
         "runBuildTargetDependencies": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "e-commerce:build:development"
+          "buildTarget": "user:build:development"
         },
         "production": {
-          "buildTarget": "e-commerce:build:production"
+          "buildTarget": "user:build:production"
         }
       }
     }
