@@ -4,6 +4,8 @@
     "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -13,10 +15,13 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
     "baseUrl": ".",
+    "allowUnusedLabels": true,
     "paths": {
+      "@e-commerce/db/types": ["libs/src/lib/prisma/src/index.ts"],
       "@e-commerce/libs": ["libs/src/index.ts"],
-      "@e-commerce/db/types": ["libs/src/lib/prisma/src/index.ts"]
+      "@e-commerce/libs/nest": ["libs/src/nest/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

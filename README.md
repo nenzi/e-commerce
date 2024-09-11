@@ -11,13 +11,45 @@
 To run the dev server for your app, use:
 
 ```sh
-npx nx serve e-commerce
+npx nx serve user
+```
+
+```sh
+npx nx serve user
+```
+
+```sh
+npx nx serve product
+```
+
+```sh
+npx nx serve order
+```
+
+```sh
+npx nx serve payment
 ```
 
 To create a production bundle:
 
 ```sh
-npx nx build e-commerce
+npx nx build user
+```
+
+```sh
+npx nx build user
+```
+
+```sh
+npx nx build product
+```
+
+```sh
+npx nx build order
+```
+
+```sh
+npx nx build payment
 ```
 
 To see all available targets to run for a project, run:

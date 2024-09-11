@@ -4,7 +4,7 @@
     "**/*"
   ],
   "plugins": [
-    "@nx"
+    "@nx", "simple-import-sort"
   ],
   "overrides": [
     {
@@ -29,7 +29,9 @@
               }
             ]
           }
-        ]
+        ],
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error"
       }
     },
     {
