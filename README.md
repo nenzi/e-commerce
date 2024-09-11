@@ -15,10 +15,6 @@ npx nx serve user
 ```
 
 ```sh
-npx nx serve user
-```
-
-```sh
 npx nx serve product
 ```
 
@@ -31,10 +27,6 @@ npx nx serve payment
 ```
 
 To create a production bundle:
-
-```sh
-npx nx build user
-```
 
 ```sh
 npx nx build user
